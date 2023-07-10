@@ -1,0 +1,59 @@
+*{
+    margin:0px;
+    border:0px;
+}
+.main-container{
+display: flex;
+justify-content: space-between;
+background-color: gray;
+padding: 10px;
+}
+.manush{
+    display: flex;
+list-style: none;
+gap: 20px;
+font-size: 15px ;
+font-style: italic;
+}
+.banner-section{
+    height: 100vh;
+    background-image:  linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);;
+        background-image: url("./asset/image/background.jpg");
+background-position: center;
+background-blend-mode: overlay;
+background-repeat: no-repeat;
+text-align: center;
+display: flex;
+align-items: center;
+
+}
+.tittle{
+    font-size: 50px ;
+    color: white;
+    font-weight: bold;
+
+}
+.description{
+color: white;
+padding: 10px ;
+width: 50%;
+margin: auto;
+}
+.btn-primary{
+background-color: red;
+color: white;
+border-radius: 4px ;
+padding: 10px ;
+}
+.button{
+    border-radius: 4px ;
+    padding: 10px ;
+}
+.banner-info{
+
+
+}
+.botton{display: flex;
+    gap:20px ;
+    justify-content: center;
+}
